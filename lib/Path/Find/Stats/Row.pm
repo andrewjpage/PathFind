@@ -46,7 +46,7 @@ has '_vrtrack_project'      => ( is => 'ro', isa => 'VRTrack::Project',         
 has '_vrtrack_sample'       => ( is => 'ro', isa => 'VRTrack::Sample',           lazy_build => 1 );    # Mapper - from mapstats
 has '_vrtrack_assembly'     => ( is => 'ro', isa => 'VRTrack::Assembly',         lazy_build => 1 );    # Assembly - from mapststs
 has '_vrtrack_mapper'       => ( is => 'ro', isa => 'VRTrack::Mapper',           lazy_build => 1 );    # Mapper - from mapstats
-has '_bamcheck_obj'         => ( is => 'ro', isa => 'VertRes::Parser::bamcheck', lazy_build => 1 );    # Bamcheck - for assemblies
+has '_bamcheck_obj'         => ( is => 'ro', isa => 'Maybe[VertRes::Parser::bamcheck]', lazy_build => 1 );    # Bamcheck - for assemblies
 has '_basic_assembly_stats' => ( is => 'ro', isa => 'HashRef',                   lazy_build => 1 );
 
 # Cells
@@ -186,7 +186,7 @@ sub _build_is_mapping_complete {
         my ($self) = @_;
         my $path_to_file = $self->bamcheck;
 
-        return if ( !-e $path_to_file || !-s $path_to_file );
+        return undef if ( !-e $path_to_file || !-s $path_to_file );
         return VertRes::Parser::bamcheck->new( file => $path_to_file );
     }
 
@@ -515,6 +515,9 @@ sub _build_is_mapping_complete {
             if ( defined($bc) ) {
                 return $self->_bamcheck_obj->get('sequences');
             }
+	    else{
+		return undef;
+	    }
         }
 
         sub _build_reads_mapped {
@@ -523,6 +526,9 @@ sub _build_is_mapping_complete {
             if ( defined($bc) ) {
                 return $self->_bamcheck_obj->get('reads_mapped');
             }
+	    else{
+		return undef;
+	    }
         }
 
         sub _build_reads_unmapped {
@@ -531,6 +537,9 @@ sub _build_is_mapping_complete {
             if ( defined($bc) ) {
                 return $self->_bamcheck_obj->get('reads_unmapped');
             }
+	    else{
+		return undef;
+	    }
         }
 
 		sub _build_reads_paired {
@@ -539,6 +548,9 @@ sub _build_is_mapping_complete {
             if ( defined($bc) ) {
                 return $self->_bamcheck_obj->get('reads_paired');
             }
+	    else{
+		return undef;
+	    }
         }
 
 		sub _build_reads_unpaired {
@@ -547,6 +559,9 @@ sub _build_is_mapping_complete {
             if ( defined($bc) ) {
                 return $self->_bamcheck_obj->get('reads_unpaired');
             }
+	    else{
+		return undef;
+	    }
         }
 
 		sub _build_raw_bases {
@@ -555,6 +570,9 @@ sub _build_is_mapping_complete {
             if ( defined($bc) ) {
                 return $self->_bamcheck_obj->get('total_length');
             }
+	    else{
+		return undef;
+	    }
         }
 
 		sub _build_bases_mapped {
@@ -563,6 +581,9 @@ sub _build_is_mapping_complete {
             if ( defined($bc) ) {
                 return $self->_bamcheck_obj->get('bases_mapped');
             }
+	    else{
+		return undef;
+	    }
         }
 
 		sub _build_bases_mapped_cigar {
@@ -571,6 +592,9 @@ sub _build_is_mapping_complete {
             if ( defined($bc) ) {
                 return $self->_bamcheck_obj->get('bases_mapped_cigar');
             }
+	    else{
+		return undef;
+	    }
         }
 
 		sub _build_avg_length {
@@ -579,6 +603,9 @@ sub _build_is_mapping_complete {
             if ( defined($bc) ) {
                 return $self->_bamcheck_obj->get('avg_length');
             }
+	    else{
+		return undef;
+	    }
         }
 
 		sub _build_max_length {
@@ -587,6 +614,9 @@ sub _build_is_mapping_complete {
             if ( defined($bc) ) {
                 return $self->_bamcheck_obj->get('max_length');
             }
+	    else{
+		return undef;
+	    }
         }
 
 		sub _build_avg_qual {
@@ -595,6 +625,9 @@ sub _build_is_mapping_complete {
             if ( defined($bc) ) {
                 return $self->_bamcheck_obj->get('avg_qual');
             }
+	    else{
+		return undef;
+	    }
         }
 
 		sub _build_avg_insert_size {
@@ -603,6 +636,9 @@ sub _build_is_mapping_complete {
             if ( defined($bc) ) {
                 return $self->_bamcheck_obj->get('avg_insert_size');
             }
+	    else{
+		return undef;
+	    }
         }
 
 		sub _build_sd_insert_size {
@@ -611,6 +647,9 @@ sub _build_is_mapping_complete {
             if ( defined($bc) ) {
                 return $self->_bamcheck_obj->get('sd_insert_size');
             }
+	    else{
+		return undef;
+	    }
         }
 
 		sub _build_total_length{

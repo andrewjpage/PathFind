@@ -28,8 +28,7 @@ use Cwd;
 use lib "/software/pathogen/internal/pathdev/vr-codebase/modules"
   ;    #Change accordingly once we have a stable checkout
 
-#use lib "/software/pathogen/internal/prod/lib";
-use lib "/nfs/users/nfs_c/cc21/lustre/repos/PathFind/lib";
+use lib "/software/pathogen/internal/prod/lib";
 use lib "../lib";
 use Getopt::Long qw(GetOptionsFromArray);
 use File::Path qw(make_path);
