@@ -47,6 +47,8 @@ has 'id'          => ( is => 'rw', isa => 'Str',      required => 0 );
 has 'help'        => ( is => 'rw', isa => 'Str',      required => 0 );
 has '_job_runner' =>
   ( is => 'rw', isa => 'Str', required => 0, default => 'LSF' );
+has 'gff_files'   => ( is => 'rw', isa => 'ArrayRef',  default => sub {[]}  );
+
 
 sub BUILD {
     my ($self) = @_;
@@ -66,6 +68,19 @@ sub BUILD {
     $self->_job_runner($job_runner) if ( defined $job_runner );
     $self->help($help)              if ( defined $help );
 
+    my $invalid_file_found = 0;
+    for my $filename ( @{ $self->args } ) {
+        if ( -e $filename && $filename =~ /\.gff$/) {
+          push(@{$self->gff_files}, $filename);
+        }
+        else
+        {
+          print "Invalid file: $filename\n";
+          $invalid_file_found = 1;
+        }
+    }
+
+
     (
         $type && $id && $id ne '' && ( $type eq 'study'
             || $type eq 'lane'
@@ -73,7 +88,7 @@ sub BUILD {
             || $type eq 'sample'
             || $type eq 'species'
             || $type eq 'database' )
-    ) or die $self->usage_text;
+    ) && ($invalid_file_found == 0) or die $self->usage_text;
 }
 
 sub run {
@@ -155,7 +170,8 @@ sub run {
             rename_links     => \%link_names
         )->sym_links;
 
-        `cd $output_directory; create_pan_genome --job_runner $job_runner *.gff`;
+        my $extra_gff_files = join(" ", $self->gff_files);
+        `cd $output_directory; create_pan_genome --job_runner $job_runner *.gff $extra_gff_files`;
 
         chdir($cwd);
         $dbh->disconnect();
@@ -203,7 +219,8 @@ bacteria_pan_genome -t file -i example.txt
 # On all lanes in a multiplexed run
 bacteria_pan_genome -t lane -i 1234_5
 
-
+# On all lanes in a file plus other GFF files in the directory
+bacteria_pan_genome -t file -i example.txt *.gff
 
 USAGE
     exit;
