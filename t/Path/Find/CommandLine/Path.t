@@ -717,6 +717,49 @@ stdout_is { $obj->run } $exp_out, "Correct results for '$arg_str'";
 ok( -e "$tmp/test82/5477_6_1_1.fastq.gz", 'correct symlink name' );
 ok( -e "$tmp/test82/5477_6_1_2.fastq.gz", 'correct symlink name' );
 
+# test 83 : symlinks should be created to fastq.gz files if file type not specified for a lane
+@args = ( "--test", "-t", "lane", "-i", "5477_6#1", "-symlink", "$tmp/test_83");
+$exp_out = read_file('t/data/pathfind/47.txt');
+$obj = Path::Find::CommandLine::Path->new(args => \@args, script_name => $script_name);
+$arg_str = join(" ", @args);
+stdout_is { $obj->run } $exp_out, "Correct results for '$arg_str'";
+
+ok(-l "$tmp/test_83/5477_6#1_1.fastq.gz", 'symlinks created to fastq files when no file type specified');
+ok(-l "$tmp/test_83/5477_6#1_2.fastq.gz", 'symlinks created to fastq files when no file type specified');
+ok(!(-l "$tmp/test_83/pool_1.fastq.gz"), 'symlink not created to pool file when no file type specified');
+
+
+# test 84 : symlinks should be created to fastq.gz files if file type not specified for a study
+@args = ( "--test", "-t", "study", "-i", "3", "-symlink", "$tmp/test_84");
+$exp_out = read_file('t/data/pathfind/64.txt');
+$obj = Path::Find::CommandLine::Path->new(args => \@args, script_name => $script_name);
+$arg_str = join(" ", @args);
+stdout_is { $obj->run } $exp_out, "Correct results for '$arg_str'";
+
+ok(-l "$tmp/test_84/5477_6#1_1.fastq.gz", 'symlinks created to fastq files when no file type specified');
+ok(-l "$tmp/test_84/5477_6#1_2.fastq.gz", 'symlinks created to fastq files when no file type specified');
+ok(-l "$tmp/test_84/5477_6#2_1.fastq.gz", 'symlinks created to fastq files when no file type specified');
+ok(-l "$tmp/test_84/5477_6#2_2.fastq.gz", 'symlinks created to fastq files when no file type specified');
+ok(-l "$tmp/test_84/5477_6#3_1.fastq.gz", 'symlinks created to fastq files when no file type specified');
+ok(-l "$tmp/test_84/5477_6#3_2.fastq.gz", 'symlinks created to fastq files when no file type specified');
+ok(-l "$tmp/test_84/5477_6#4_1.fastq.gz", 'symlinks created to fastq files when no file type specified');
+ok(-l "$tmp/test_84/5477_6#4_2.fastq.gz", 'symlinks created to fastq files when no file type specified');
+ok(!(-l "$tmp/test_83/pool_1.fastq.gz"), 'symlink not created to pool file when no file type specified');
+
+
+# test 85 : symlinks should be created to fastq.gz files if file type not specified for a study
+@args = ( "--test", "-t", "file", "-i", "t/data/pathfind/path_lanes.txt", "-l", "$tmp/test_85" );
+$exp_out = read_file('t/data/pathfind/42.txt');
+$obj = Path::Find::CommandLine::Path->new(args => \@args, script_name => $script_name);
+$arg_str = join(" ", @args);
+stdout_is { $obj->run } $exp_out, "Correct results for '$arg_str'";
+
+ok(-l "$tmp/test_84/5477_6#1_1.fastq.gz", 'symlinks created to fastq files when no file type specified');
+ok(-l "$tmp/test_84/5477_6#1_2.fastq.gz", 'symlinks created to fastq files when no file type specified');
+ok(-l "$tmp/test_84/5477_6#2_1.fastq.gz", 'symlinks created to fastq files when no file type specified');
+ok(-l "$tmp/test_84/5477_6#2_2.fastq.gz", 'symlinks created to fastq files when no file type specified');
+ok(!(-l "$tmp/test_83/pool_1.fastq.gz"), 'symlink not created to pool file when no file type specified');
+
 remove_tree($tmp);
 done_testing();
 
