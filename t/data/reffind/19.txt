@@ -1,1 +1,1 @@
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/refs/Leishmania/mexicana/Leishmania_mexicana_27July2011.embl
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/refs/Leishmania/mexicana/Leishmania_mexicana_27July2011.embl

@@ -1,8 +1,8 @@
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_1/SLX/test1_1/5477_6#1/5477_6#1_1.fastq.gz
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_1/SLX/test1_1/5477_6#1/5477_6#1_2.fastq.gz
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_2/SLX/test1_2/5477_6#2/5477_6#2_1.fastq.gz
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_2/SLX/test1_2/5477_6#2/5477_6#2_2.fastq.gz
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_3/SLX/test1_3/5477_6#3/5477_6#3_1.fastq.gz
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_3/SLX/test1_3/5477_6#3/5477_6#3_2.fastq.gz
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_4/SLX/test1_4/5477_6#4/5477_6#4_1.fastq.gz
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_4/SLX/test1_4/5477_6#4/5477_6#4_2.fastq.gz
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_1/SLX/test1_1/5477_6#1/5477_6#1_1.fastq.gz
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_1/SLX/test1_1/5477_6#1/5477_6#1_2.fastq.gz
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_2/SLX/test1_2/5477_6#2/5477_6#2_1.fastq.gz
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_2/SLX/test1_2/5477_6#2/5477_6#2_2.fastq.gz
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_3/SLX/test1_3/5477_6#3/5477_6#3_1.fastq.gz
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_3/SLX/test1_3/5477_6#3/5477_6#3_2.fastq.gz
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_4/SLX/test1_4/5477_6#4/5477_6#4_1.fastq.gz
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_4/SLX/test1_4/5477_6#4/5477_6#4_2.fastq.gz

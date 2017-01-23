@@ -1,1 +1,1 @@
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_1/SLX/test1_1/5477_6#1/25.pe.insertion.csv	Streptococcus_pneumoniae_INV200_v1	smalt	21-03-2014
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_1/SLX/test1_1/5477_6#1/25.pe.insertion.csv	Streptococcus_pneumoniae_INV200_v1	smalt	21-03-2014

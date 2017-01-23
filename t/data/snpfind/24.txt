@@ -1,3 +1,3 @@
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_1/SLX/test1_1/5477_6#1/25.pe.markdup.snp/mpileup.unfilt.vcf.gz	Streptococcus_pneumoniae_INV200_v1	smalt	21-03-2014
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_3/SLX/test2_3/6578_4#3/62.pe.markdup.snp/mpileup.unfilt.vcf.gz	Shigella_flexneri_2a_str_301_v2	bwa	20-03-2014
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/46.pe.markdup.snp/mpileup.unfilt.vcf.gz	Shigella_flexneri_2a_str_301_v2	bwa	20-03-2014
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_1/SLX/test1_1/5477_6#1/25.pe.markdup.snp/mpileup.unfilt.vcf.gz	Streptococcus_pneumoniae_INV200_v1	smalt	21-03-2014
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_3/SLX/test2_3/6578_4#3/62.pe.markdup.snp/mpileup.unfilt.vcf.gz	Shigella_flexneri_2a_str_301_v2	bwa	20-03-2014
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/46.pe.markdup.snp/mpileup.unfilt.vcf.gz	Shigella_flexneri_2a_str_301_v2	bwa	20-03-2014

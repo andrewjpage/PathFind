@@ -15,7 +15,7 @@ my $obj = Path::Find->new;
 # Check hierarchy template
 is $obj->hierarchy_template, 'genus:species-subspecies:TRACKING:projectssid:sample:technology:library:lane', 'hierarchy ok';
 
-my $db_file = '/lustre/scratch118/'; # Database filesystem
+my $db_file = '/lustre/scratch118/infgen/'; # Database filesystem
 my $db_root = $db_file.'pathogen/pathpipe/'; # Database root directory
 my $database_A = 'pathogen_prok_track'; # existing database
 my $location_A = $db_root.'prokaryotes/seq-pipelines';

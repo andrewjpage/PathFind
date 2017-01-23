@@ -1,3 +1,3 @@
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_2/SLX/test1_2/5477_6#2/velvet_assembly/contigs.fa
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_2/SLX/test2_2/6578_4#2/velvet_assembly/contigs.fa
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_3/SLX/test2_3/6578_4#3/iva_assembly/contigs.fa
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_2/SLX/test1_2/5477_6#2/velvet_assembly/contigs.fa
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_2/SLX/test2_2/6578_4#2/velvet_assembly/contigs.fa
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_3/SLX/test2_3/6578_4#3/iva_assembly/contigs.fa

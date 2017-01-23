@@ -42,27 +42,27 @@ $filter = Path::Find::Filter->new(
 
 my $expected_fastq = [
           {
-            'path' => '/lustre/scratch118/pathogen/pathpipe/prokaryotes/seq-pipelines/Blautia/producta/TRACKING/1707/TL266/SLX/TL266_1728612/5749_8#1/5749_8#1_2.fastq.gz',
+            'path' => '/lustre/scratch118/infgen/pathogen/pathpipe/prokaryotes/seq-pipelines/Blautia/producta/TRACKING/1707/TL266/SLX/TL266_1728612/5749_8#1/5749_8#1_2.fastq.gz',
             'mapstat_id' => undef
           },
           {
-            'path' => '/lustre/scratch118/pathogen/pathpipe/prokaryotes/seq-pipelines/Blautia/producta/TRACKING/1707/TL266/SLX/TL266_1728612/5749_8#1/5749_8#1_1.fastq.gz',
+            'path' => '/lustre/scratch118/infgen/pathogen/pathpipe/prokaryotes/seq-pipelines/Blautia/producta/TRACKING/1707/TL266/SLX/TL266_1728612/5749_8#1/5749_8#1_1.fastq.gz',
             'mapstat_id' => undef
           },
           {
-            'path' => '/lustre/scratch118/pathogen/pathpipe/prokaryotes/seq-pipelines/Blautia/producta/TRACKING/1707/2950/SLX/2950_1728613/5749_8#2/5749_8#2_2.fastq.gz',
+            'path' => '/lustre/scratch118/infgen/pathogen/pathpipe/prokaryotes/seq-pipelines/Blautia/producta/TRACKING/1707/2950/SLX/2950_1728613/5749_8#2/5749_8#2_2.fastq.gz',
             'mapstat_id' => undef
           },
           {
-            'path' => '/lustre/scratch118/pathogen/pathpipe/prokaryotes/seq-pipelines/Blautia/producta/TRACKING/1707/2950/SLX/2950_1728613/5749_8#2/5749_8#2_1.fastq.gz',
+            'path' => '/lustre/scratch118/infgen/pathogen/pathpipe/prokaryotes/seq-pipelines/Blautia/producta/TRACKING/1707/2950/SLX/2950_1728613/5749_8#2/5749_8#2_1.fastq.gz',
             'mapstat_id' => undef
           },
           {
-            'path' => '/lustre/scratch118/pathogen/pathpipe/prokaryotes/seq-pipelines/Blautia/producta/TRACKING/1707/3507/SLX/3507_1728614/5749_8#3/5749_8#3_2.fastq.gz',
+            'path' => '/lustre/scratch118/infgen/pathogen/pathpipe/prokaryotes/seq-pipelines/Blautia/producta/TRACKING/1707/3507/SLX/3507_1728614/5749_8#3/5749_8#3_2.fastq.gz',
             'mapstat_id' => undef
           },
           {
-            'path' => '/lustre/scratch118/pathogen/pathpipe/prokaryotes/seq-pipelines/Blautia/producta/TRACKING/1707/3507/SLX/3507_1728614/5749_8#3/5749_8#3_1.fastq.gz',
+            'path' => '/lustre/scratch118/infgen/pathogen/pathpipe/prokaryotes/seq-pipelines/Blautia/producta/TRACKING/1707/3507/SLX/3507_1728614/5749_8#3/5749_8#3_1.fastq.gz',
             'mapstat_id' => undef
           }
         ];
@@ -84,15 +84,15 @@ $filter = Path::Find::Filter->new(
 
 my $expected_bams = [
           {
-            'path' => '/lustre/scratch118/pathogen/pathpipe/prokaryotes/seq-pipelines/Mycobacterium/microti/TRACKING/499/OV254/SLX/OV254_247838/4880_8#1/111360.pe.markdup.bam',
+            'path' => '/lustre/scratch118/infgen/pathogen/pathpipe/prokaryotes/seq-pipelines/Mycobacterium/microti/TRACKING/499/OV254/SLX/OV254_247838/4880_8#1/111360.pe.markdup.bam',
             'mapstat_id' => '111360'
           },
           {
-            'path' => '/lustre/scratch118/pathogen/pathpipe/prokaryotes/seq-pipelines/Mycobacterium/microti/TRACKING/499/ATCC35782/SLX/ATCC35782_247839/4880_8#2/111363.pe.markdup.bam',
+            'path' => '/lustre/scratch118/infgen/pathogen/pathpipe/prokaryotes/seq-pipelines/Mycobacterium/microti/TRACKING/499/ATCC35782/SLX/ATCC35782_247839/4880_8#2/111363.pe.markdup.bam',
             'mapstat_id' => '111363'
           },
           {
-            'path' => '/lustre/scratch118/pathogen/pathpipe/prokaryotes/seq-pipelines/Mycobacterium/microti/TRACKING/499/MausIII/SLX/MausIII_247840/4880_8#3/111366.pe.markdup.bam',
+            'path' => '/lustre/scratch118/infgen/pathogen/pathpipe/prokaryotes/seq-pipelines/Mycobacterium/microti/TRACKING/499/MausIII/SLX/MausIII_247840/4880_8#3/111366.pe.markdup.bam',
             'mapstat_id' => '111366'
           }
         ];
@@ -118,21 +118,21 @@ my $expected_verbose = [
             'ref' => 'Salmonella_enterica_subsp_enterica_serovar_Typhimurium_SL1344_v1',
             'mapper' => 'smalt',
             'date' => '10-07-2013',
-            'path' => '/lustre/scratch118/pathogen/pathpipe/prokaryotes/seq-pipelines/Salmonella/enterica_subsp_enterica_serovar_Typhimurium/TRACKING/2234/TyCTRL1/SLX/TyCTRL1_5521546/8086_1#1/539784.se.markdup.bam',
+            'path' => '/lustre/scratch118/infgen/pathogen/pathpipe/prokaryotes/seq-pipelines/Salmonella/enterica_subsp_enterica_serovar_Typhimurium/TRACKING/2234/TyCTRL1/SLX/TyCTRL1_5521546/8086_1#1/539784.se.markdup.bam',
             'mapstat_id' => '539784'
           },
           {
             'ref' => 'Salmonella_enterica_subsp_enterica_serovar_Typhimurium_SL1344_v1',
             'mapper' => 'smalt',
             'date' => '25-06-2013',
-            'path' => '/lustre/scratch118/pathogen/pathpipe/prokaryotes/seq-pipelines/Salmonella/enterica_subsp_enterica_serovar_Typhimurium/TRACKING/2234/TyCTRL2/SLX/TyCTRL2_5521547/8086_1#2/522282.se.markdup.bam',
+            'path' => '/lustre/scratch118/infgen/pathogen/pathpipe/prokaryotes/seq-pipelines/Salmonella/enterica_subsp_enterica_serovar_Typhimurium/TRACKING/2234/TyCTRL2/SLX/TyCTRL2_5521547/8086_1#2/522282.se.markdup.bam',
             'mapstat_id' => '522282'
           },
           {
             'ref' => 'Salmonella_enterica_subsp_enterica_serovar_Typhimurium_SL1344_v1',
             'mapper' => 'smalt',
             'date' => '25-06-2013',
-            'path' => '/lustre/scratch118/pathogen/pathpipe/prokaryotes/seq-pipelines/Salmonella/enterica_subsp_enterica_serovar_Typhimurium/TRACKING/2234/TyCPI1/SLX/TyCPI1_5521548/8086_1#3/522279.se.markdup.bam',
+            'path' => '/lustre/scratch118/infgen/pathogen/pathpipe/prokaryotes/seq-pipelines/Salmonella/enterica_subsp_enterica_serovar_Typhimurium/TRACKING/2234/TyCPI1/SLX/TyCPI1_5521548/8086_1#3/522279.se.markdup.bam',
             'mapstat_id' => '522279'
           }
         ];
@@ -148,7 +148,7 @@ my $expected_date = [
             'ref' => 'Salmonella_enterica_subsp_enterica_serovar_Typhimurium_SL1344_v1',
             'mapper' => 'smalt',
             'date' => '10-07-2013',
-            'path' => '/lustre/scratch118/pathogen/pathpipe/prokaryotes/seq-pipelines/Salmonella/enterica_subsp_enterica_serovar_Typhimurium/TRACKING/2234/TyCTRL1/SLX/TyCTRL1_5521546/8086_1#1/539784.se.markdup.bam',
+            'path' => '/lustre/scratch118/infgen/pathogen/pathpipe/prokaryotes/seq-pipelines/Salmonella/enterica_subsp_enterica_serovar_Typhimurium/TRACKING/2234/TyCTRL1/SLX/TyCTRL1_5521546/8086_1#1/539784.se.markdup.bam',
             'mapstat_id' => '539784'
           }
         ];

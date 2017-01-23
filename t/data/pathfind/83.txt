@@ -1,4 +1,4 @@
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/m140513_010501_00127_c100646542550000001823121809101412_s1_p0.1.bax.h5
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/m140513_010501_00127_c100646542550000001823121809101412_s1_p0.2.bax.h5
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/m140513_010501_00127_c100646542550000001823121809101412_s1_p0.3.bax.h5
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/m140513_010501_00127_c100646542550000001823121809101412_s1_p0.bas.h5
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/m140513_010501_00127_c100646542550000001823121809101412_s1_p0.1.bax.h5
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/m140513_010501_00127_c100646542550000001823121809101412_s1_p0.2.bax.h5
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/m140513_010501_00127_c100646542550000001823121809101412_s1_p0.3.bax.h5
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/m140513_010501_00127_c100646542550000001823121809101412_s1_p0.bas.h5

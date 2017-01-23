@@ -1,8 +1,8 @@
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_1/SLX/test2_1/6578_4#1/6578_4#1_1.fastq.gz
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_1/SLX/test2_1/6578_4#1/6578_4#1_2.fastq.gz
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_2/SLX/test2_2/6578_4#2/6578_4#2_1.fastq.gz
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_2/SLX/test2_2/6578_4#2/6578_4#2_2.fastq.gz
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_3/SLX/test2_3/6578_4#3/6578_4#3_1.fastq.gz
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_3/SLX/test2_3/6578_4#3/6578_4#3_2.fastq.gz
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/6578_4#4_1.fastq.gz
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/6578_4#4_2.fastq.gz
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_1/SLX/test2_1/6578_4#1/6578_4#1_1.fastq.gz
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_1/SLX/test2_1/6578_4#1/6578_4#1_2.fastq.gz
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_2/SLX/test2_2/6578_4#2/6578_4#2_1.fastq.gz
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_2/SLX/test2_2/6578_4#2/6578_4#2_2.fastq.gz
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_3/SLX/test2_3/6578_4#3/6578_4#3_1.fastq.gz
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_3/SLX/test2_3/6578_4#3/6578_4#3_2.fastq.gz
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/6578_4#4_1.fastq.gz
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/6578_4#4_2.fastq.gz

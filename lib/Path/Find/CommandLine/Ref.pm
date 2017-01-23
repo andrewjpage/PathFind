@@ -138,12 +138,12 @@ sub run {
 
     my ($root, $index_file);
     if( $self->_environment eq 'prod' ){
-        $root       = '/lustre/scratch118/pathogen/pathpipe/refs/';
-        $index_file = '/lustre/scratch118/pathogen/pathpipe/refs/refs.index';
+        $root       = '/lustre/scratch118/infgen/pathogen/pathpipe/refs/';
+        $index_file = '/lustre/scratch118/infgen/pathogen/pathpipe/refs/refs.index';
     }
     elsif( $self->_environment eq 'test' ){
-        $root       = '/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/refs/';
-        $index_file = '/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/refs/refs.index';
+        $root       = '/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/refs/';
+        $index_file = '/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/refs/refs.index';
     }
     my @species_to_find;
     if ( $type eq 'species' ) {

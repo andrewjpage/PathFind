@@ -1,1 +1,1 @@
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_2/SLX/test2_2/6578_4#2/velvet_assembly/unscaffolded_contigs.fa
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_2/SLX/test2_2/6578_4#2/velvet_assembly/unscaffolded_contigs.fa

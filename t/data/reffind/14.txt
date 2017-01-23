@@ -1,1 +1,1 @@
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/refs/Klebsiella/pneumoniae_Ec18/Klebsiella_pneumoniae_Ec18_v0.1.gff
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/refs/Klebsiella/pneumoniae_Ec18/Klebsiella_pneumoniae_Ec18_v0.1.gff

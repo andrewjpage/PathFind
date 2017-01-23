@@ -1,2 +1,2 @@
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/refs/Escherichia/coli_ETEC_H10407/Escherichia_coli_ETEC_H10407_v1.fa
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/refs/Escherichia/coli_ETEC_H10407/Escherichia_coli_ETEC_H10407_v2.fa
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/refs/Escherichia/coli_ETEC_H10407/Escherichia_coli_ETEC_H10407_v1.fa
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/refs/Escherichia/coli_ETEC_H10407/Escherichia_coli_ETEC_H10407_v2.fa

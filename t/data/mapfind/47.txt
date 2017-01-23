@@ -1,1 +1,1 @@
-/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_3/SLX/test1_3/5477_6#3/22.pe.markdup.bam
+/lustre/scratch118/infgen/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_3/SLX/test1_3/5477_6#3/22.pe.markdup.bam
