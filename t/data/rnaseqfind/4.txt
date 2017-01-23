@@ -1,3 +1,3 @@
-/lustre/scratch108/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_1/SLX/test1_1/5477_6#1/25.pe.expression.csv
-/lustre/scratch108/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_1/SLX/test2_1/6578_4#1/65.pe.expression.csv
-/lustre/scratch108/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/46.pe.expression.csv
+/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_1/SLX/test1_1/5477_6#1/25.pe.expression.csv
+/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_1/SLX/test2_1/6578_4#1/65.pe.expression.csv
+/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/46.pe.expression.csv

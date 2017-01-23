@@ -24,7 +24,7 @@ use YAML::XS;
 use Moose;
 
 has 'connection'  => ( is => 'ro', isa => 'HashRef',  lazy_build => 1,   required => 0 );
-has 'db_root'     => ( is => 'ro', isa => 'Str',      default => '/lustre/scratch108/pathogen/pathpipe', required => 0 );
+has 'db_root'     => ( is => 'ro', isa => 'Str',      default => '/lustre/scratch118/pathogen/pathpipe', required => 0 );
 has 'db_sub'      => ( is => 'ro', isa => 'HashRef',  lazy_build => 1,   required => 0 );
 has 'template'    => ( is => 'ro', isa => 'Str',      default => "genus:species-subspecies:TRACKING:projectssid:sample:technology:library:lane", required => 0 );
 has 'environment' => ( is => 'ro', isa => 'Str',      default => 'prod', required => 0 );

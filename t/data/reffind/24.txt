@@ -1,1 +1,1 @@
-/lustre/scratch108/pathogen/pathpipe/pathogen_test_pathfind/refs/Clostridium/difficile_630/annotation/Clostridium_difficile_630_v1.6.gff
+/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/refs/Clostridium/difficile_630/annotation/Clostridium_difficile_630_v1.6.gff

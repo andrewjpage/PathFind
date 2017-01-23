@@ -1,2 +1,2 @@
-/lustre/scratch108/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_1/SLX/test2_1/6578_4#1/65.pe.coverageplot.gz	Shigella_flexneri_2a_str_301_v2	bwa	20-03-2014
-/lustre/scratch108/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/46.pe.coverageplot.gz	Shigella_flexneri_2a_str_301_v2	bwa	20-03-2014
+/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_1/SLX/test2_1/6578_4#1/65.pe.coverageplot.gz	Shigella_flexneri_2a_str_301_v2	bwa	20-03-2014
+/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/46.pe.coverageplot.gz	Shigella_flexneri_2a_str_301_v2	bwa	20-03-2014

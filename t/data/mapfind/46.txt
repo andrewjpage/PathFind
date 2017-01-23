@@ -1,4 +1,4 @@
-/lustre/scratch108/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_1/SLX/test2_1/6578_4#1/65.pe.markdup.bam
-/lustre/scratch108/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_2/SLX/test2_2/6578_4#2/59.pe.markdup.bam
-/lustre/scratch108/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_3/SLX/test2_3/6578_4#3/62.pe.markdup.bam
-/lustre/scratch108/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/46.pe.markdup.bam
+/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_1/SLX/test2_1/6578_4#1/65.pe.markdup.bam
+/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_2/SLX/test2_2/6578_4#2/59.pe.markdup.bam
+/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_3/SLX/test2_3/6578_4#3/62.pe.markdup.bam
+/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Shigella/flexneri/TRACKING/2/test2_4/SLX/test2_4/6578_4#4/46.pe.markdup.bam

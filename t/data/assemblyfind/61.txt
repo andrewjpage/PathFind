@@ -1,4 +1,4 @@
-/lustre/scratch108/pathogen/pathpipe/viruses/seq-pipelines/Human/immunodeficiency_virus_1/TRACKING/2591/BEEHIVE5744337/SLX/9568661/12370_1#19/iva_assembly/contigs.fa
-/lustre/scratch108/pathogen/pathpipe/viruses/seq-pipelines/Human/immunodeficiency_virus_1/TRACKING/2591/BEEHIVE5744337/SLX/9568661/12370_1#19/iva_assembly/unscaffolded_contigs.fa
-/lustre/scratch108/pathogen/pathpipe/viruses/seq-pipelines/Human/immunodeficiency_virus_1/TRACKING/2591/BEEHIVE5744337/SLX/9568661/12370_1#19/spades_assembly/contigs.fa
-/lustre/scratch108/pathogen/pathpipe/viruses/seq-pipelines/Human/immunodeficiency_virus_1/TRACKING/2591/BEEHIVE5744337/SLX/9568661/12370_1#19/spades_assembly/unscaffolded_contigs.fa
+/lustre/scratch118/pathogen/pathpipe/viruses/seq-pipelines/Human/immunodeficiency_virus_1/TRACKING/2591/BEEHIVE5744337/SLX/9568661/12370_1#19/iva_assembly/contigs.fa
+/lustre/scratch118/pathogen/pathpipe/viruses/seq-pipelines/Human/immunodeficiency_virus_1/TRACKING/2591/BEEHIVE5744337/SLX/9568661/12370_1#19/iva_assembly/unscaffolded_contigs.fa
+/lustre/scratch118/pathogen/pathpipe/viruses/seq-pipelines/Human/immunodeficiency_virus_1/TRACKING/2591/BEEHIVE5744337/SLX/9568661/12370_1#19/spades_assembly/contigs.fa
+/lustre/scratch118/pathogen/pathpipe/viruses/seq-pipelines/Human/immunodeficiency_virus_1/TRACKING/2591/BEEHIVE5744337/SLX/9568661/12370_1#19/spades_assembly/unscaffolded_contigs.fa

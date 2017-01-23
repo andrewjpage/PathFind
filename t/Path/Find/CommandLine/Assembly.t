@@ -662,7 +662,7 @@ is(
 # 
 
 # test 62 - test stats file when assembly run is not complete
-my $assembly_dir = "/lustre/scratch108/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_2/SLX/test1_2/5477_6#2/velvet_assembly";
+my $assembly_dir = "/lustre/scratch118/pathogen/pathpipe/pathogen_test_pathfind/seq-pipelines/Streptococcus/pneumoniae/TRACKING/3/test1_2/SLX/test1_2/5477_6#2/velvet_assembly";
 move( "$assembly_dir/contigs.fa.stats",
 	  "$assembly_dir/statsfile"
 	);

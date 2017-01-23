@@ -1,2 +1,2 @@
-/lustre/scratch108/pathogen/pathpipe/helminths/seq-pipelines/Trichuris/muris/TRACKING/2467/220691TmAd1_1/SLX/220691TmAd1_1_9727811/12462_1#7/17157.pe.markdup.bam
-/lustre/scratch108/pathogen/pathpipe/helminths/seq-pipelines/Trichuris/muris/TRACKING/2467/220691TmAd1_1/SLX/220691TmAd1_1_9727811/12462_1#7/17193.pe.raw.sorted.bam
+/lustre/scratch118/pathogen/pathpipe/helminths/seq-pipelines/Trichuris/muris/TRACKING/2467/220691TmAd1_1/SLX/220691TmAd1_1_9727811/12462_1#7/17157.pe.markdup.bam
+/lustre/scratch118/pathogen/pathpipe/helminths/seq-pipelines/Trichuris/muris/TRACKING/2467/220691TmAd1_1/SLX/220691TmAd1_1_9727811/12462_1#7/17193.pe.raw.sorted.bam
